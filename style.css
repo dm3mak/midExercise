@@ -9,6 +9,34 @@ body{
 header{
     height: 105px;
     background: rgb(217,217,217);
-background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(148,148,148,1) 15%);
-
+    background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(148,148,148,1) 15%);
+}
+.topflex{
+    display: flex;
+    justify-content: flex-end;
+}
+.topflex > div {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 126px;
+    border: 0;
+    border-top-right-radius: 8px;
+    margin-left: 1px;
+    
+}
+.english{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.width-div{
+    /* border: solid navy;  */
+    /* use this border to verify positions  */
+    height: 50%;
+    width: 900px;
+    margin: auto;
 }
