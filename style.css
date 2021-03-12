@@ -64,6 +64,7 @@ input{
     list-style: none;
     border-right: rgb(185, 185, 185) 1px solid;/* quastion to yaron */
     padding: 0 16px 0 16px;
+    position: relative;
 }
 .flexul > li > a{
     text-decoration: none;
@@ -73,6 +74,16 @@ input{
     height: 33px;
     display: block;
 }
-.flexul > li > a:hover{
+.flexul > li > a:hover, .english:hover{
     color: #005ca0;
+    text-decoration: underline;
+}
+.flexul > li > ul {
+    position: absolute;
+    padding-right: 0px;
+    
+}
+.flexul > li > ul > li{
+    list-style: none;
+    white-space: nowrap;
 }
