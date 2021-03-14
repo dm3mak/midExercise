@@ -198,7 +198,73 @@ main > div:nth-child(2){
     margin-top: 18px;
 }
 main > div:nth-child(2) section{
-    border: solid;
+    border: solid 1px rgb(220, 220, 220);
     width: 292px;
     height: 216px;
+    border-top-right-radius: 20px;
+    background: rgb(220, 220, 220);
+    background: linear-gradient(0deg, rgb(220, 220, 220) 0%, rgb(255, 255, 255) 70%);
+    position: relative;
 }
+main > div:nth-child(2) section h3{
+    font-size: 14px;
+    border-bottom: solid 2px rgb(220, 220, 220);
+    margin: 0px 24px;
+    padding: 10px 0px;
+}
+.picture-margin{
+    width: 250px;
+    height: 110px;
+    margin: 15px 24px 0px 18px
+}
+.more-info a, .country a{
+   color: #575757;
+}
+.more-info div, .country div{
+    display: inline;
+    font-size: 12px;
+}
+.more-info{
+    margin: 20px 180px 0px 0px;
+}
+.more-info a:hover, .country a:hover{
+    color:#005ca0;
+}
+.more-info a:hover > .blue > img{
+    display: inline;
+}
+.more-info a:hover > .yellow > img{
+    display: none;
+}
+.size-article{
+    width: 244px;
+    height: 168px;
+    margin: 6px 24px 0px 24px;
+}
+.size-article > div:first-child{
+    float: right;
+    margin-top: 16px;
+}
+.size-article > div:last-child{
+    float: left;
+}
+.country{
+    margin-bottom: 6px;
+    width: 35px;
+}
+
+.country .yellow{
+    float: left;
+    padding-top: 2px;
+}
+.country .blue {
+    float: left;
+    padding-top: 2px;
+}
+.country a:hover > .blue > img{
+    display: inline;
+}
+.country a:hover > .yellow > img{
+    display: none;
+}
+/* now use all under for footer */
