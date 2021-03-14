@@ -146,7 +146,7 @@ input{
     border-bottom-right-radius: 20px;
 }
 .top-sec article {
-    background-color: rgb(112, 112, 112) ;
+    background-color: rgb(125, 125, 125) ;
     color: white;
     width: 248px;
     height: 97px;
@@ -196,6 +196,7 @@ input{
 }
 main > div:nth-child(2){
     margin-top: 18px;
+    margin-bottom: 83px;
 }
 main > div:nth-child(2) section{
     border: solid 1px rgb(220, 220, 220);
@@ -269,12 +270,12 @@ main > div:nth-child(2) section h3{
 }
 /* now use all under for footer */
 footer{
-    position: sticky; 
+    position: fixed;
+    width: 100%;
     bottom: 0px;
     height: 37px;
     background: rgb(150, 150, 150);
     background: linear-gradient(0deg, rgb(150, 150, 150) 50%, rgba(170,170,170,1) 100%);
-    margin-top: 45px ;
 }
 footer > nav {
     width: 900px;
