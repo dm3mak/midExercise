@@ -268,3 +268,40 @@ main > div:nth-child(2) section h3{
     display: none;
 }
 /* now use all under for footer */
+footer{
+    position: sticky; 
+    bottom: 0px;
+    height: 37px;
+    background: rgb(150, 150, 150);
+    background: linear-gradient(0deg, rgb(150, 150, 150) 50%, rgba(170,170,170,1) 100%);
+    margin-top: 45px ;
+}
+footer > nav {
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+footer > nav > div > a > img{
+    margin-top: 14px;
+}
+footer ul {
+    margin: 16px 0px 0px 0px;
+    padding-right: 8px;
+}
+footer li{
+    list-style-type: none;
+    border-right: solid white 2px;
+    padding: 0px 5px 0px 3px;
+    display: inline;
+}
+footer a{ 
+    color: #fff; 
+    text-decoration: none;
+    font-size: 14px; 
+    width: 100%;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #005CA0
+}
+
