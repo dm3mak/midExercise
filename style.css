@@ -6,11 +6,13 @@ body{
     text-align: right;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
 }
 header{
     height: 105px;
     background: rgb(185, 185, 185);
     background: linear-gradient(0deg, rgb(185, 185, 185) 0%, rgba(148,148,148,1) 15%);
+
 }
 .topflex{
     display: flex;
@@ -42,6 +44,7 @@ input{
     width: 900px;
     margin: auto;
     position: relative;
+    z-index: 1;
 }
 .flexnav{
     display: flex;
@@ -96,6 +99,7 @@ input{
     white-space: nowrap;
     border-bottom: solid 1px rgb(185, 185, 185); 
     
+    
 }
 .flexul > li:hover > .dropdown{
     display: block;
@@ -120,4 +124,81 @@ input{
     position: absolute;
     right: -8px;
     top: 32px;
+}
+/* use for the next page */
+.width-main{
+    width: 900px;
+    margin: auto;
+}
+.width-main > div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.width-main > div:first-child{
+    margin-top: 32px;
+}
+.top-sec{
+    position: relative;
+}
+.top-sec > img{
+    /* border: solid navy; */
+    border-bottom-right-radius: 20px;
+}
+.top-sec article {
+    background-color: rgb(112, 112, 112) ;
+    color: white;
+    width: 248px;
+    height: 97px;
+    position: absolute;
+    left: 36px;
+    bottom: 7px;
+    padding: 10px;
+    opacity: 0.9;
+    border-bottom-right-radius: 20px;
+}
+
+.top-sec article > div > h3 {
+    font-size: 14px;
+    margin: 0px;
+}
+.top-sec article > div > p {
+    font-size: 13px;
+    margin: 4px 0px 0px 0px;
+    
+    
+} 
+.read-more{
+    color: white;
+}
+.read-more > div{
+    display: inline;
+    font-size: 13px;
+}
+.floatme{
+    float: left;
+}
+.read{
+    position: relative;
+}
+.blue > img
+{
+     display: none;   
+}
+.read-more:hover{
+    color: #005ca0;
+}
+.read-more:hover > .blue > img{
+    display: inline;
+}
+.read-more:hover > .white > img{
+    display: none
+}
+main > div:nth-child(2){
+    margin-top: 18px;
+}
+main > div:nth-child(2) section{
+    border: solid;
+    width: 292px;
+    height: 216px;
 }
