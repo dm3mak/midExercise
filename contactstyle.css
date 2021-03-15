@@ -184,10 +184,14 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
 .center > article{
     border: solid 1px #ccc;
     border-top-right-radius: 20px;
-    width: 347px;
-    padding: 12px 18px;
+    width: 385px;
     background: rgb(212, 212, 212);
     background: linear-gradient(0deg, rgb(212, 212, 212) 20%, rgb(248, 248, 248) 100%);
+}
+.center > article > div{
+    width: 347px;
+    margin: 12px 19px;
+
 }
 .center > article h2{
     color: #005CA0;
@@ -201,12 +205,12 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
 
 }
 footer{
-    position: sticky; 
+    position: fixed;
+    width: 100%;
     bottom: 0px;
     height: 37px;
     background: rgb(150, 150, 150);
     background: linear-gradient(0deg, rgb(150, 150, 150) 50%, rgba(170,170,170,1) 100%);
-    margin-top: 45px ;
 }
 footer > nav {
     width: 900px;
