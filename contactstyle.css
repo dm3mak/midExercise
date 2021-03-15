@@ -23,7 +23,7 @@ header{
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-input{
+header input{
     width: 126px;
     border: 0;
     border-top-right-radius: 8px;
@@ -135,9 +135,9 @@ main > aside {
     width: 122px;
     height: 37px;
     margin-left: 22px;
-    border-top: solid 1px rgb(212, 212, 212);
-    background: rgb(212, 212, 212);
-    background: linear-gradient(0deg, rgb(212, 212, 212) 20%, rgb(248, 248, 248) 100%);
+    border-top: solid 1px rgb(235, 235, 235);
+    background: rgb(235, 235, 235);
+    background: linear-gradient(0deg, rgb(235, 235, 235) 20%, rgb(255, 255, 255) 100%);
 }
 main > aside > a > div{
     width: 100%;
@@ -164,7 +164,7 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
 .center {
     width: 440px;
     margin-left: 24px;
-    border: solid;
+    
 }
 .center > div {
     font-size: 12px;
@@ -176,19 +176,19 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
 .center > h1{
     font-size: 15px;
     font-weight: bold;
-    border-bottom: 1px solid #cbcbcb;
+    border-bottom: 1px solid rgb(225, 225 , 225);
     padding-bottom: 4px;
     color: #71726d;
     margin: 24px 0px 12px 0px;
 }
 .center > article{
-    border: solid 1px #ccc;
+    border: solid 1px rgb(225, 225 , 225);
     border-top-right-radius: 20px;
     width: 385px;
-    background: rgb(212, 212, 212);
-    background: linear-gradient(0deg, rgb(212, 212, 212) 20%, rgb(248, 248, 248) 100%);
+    background: rgb(235, 235, 235);
+    background: linear-gradient(0deg, rgb(235, 235, 235) 20%, rgb(255, 255, 255) 100%);
 }
-.center > article > div{
+.center > article > nav{
     width: 347px;
     margin: 12px 19px;
 
@@ -197,12 +197,72 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
     color: #005CA0;
     font-size: 15px;
     font-weight: bold;
+    margin: 0px 0px 5px 0px ;
+}
+.center > article p{
+    color:#6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+.center > article > nav > div{
+    color: #72716d;
+    font-size: 12px;
+}
+.contact{
+    width: 245px;
+    margin: 10px auto 0;
+}
+.contact > div{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact label{
+    color: #6d6d6d;
+    padding-top: 4px;
+    font-size: 12px;
+}
+.contact input{
+    width: 160px;
+
+}
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+}
+div.hova {
+    color: red;
+    font-size: 12px;
+    display: none;
 }
 .info {
     width: 292px;
-    margin-top: 68px;
-    border:solid;
-
+    margin-top: 56px;
+}
+.info article {
+    height: 168px;
+    border: solid 1px rgb(225, 225 , 225);
+    border-top-right-radius: 20px;
+    background: rgb(235, 235, 235);
+    background: linear-gradient(0deg, rgb(235, 235, 235) 20%, rgb(255, 255, 255) 100%);
+}
+.info article:first-child{
+    margin-bottom: 26px;
+}
+.info > article > div{
+    width: 248px;
+    margin: 18px 22px;
+}
+.info h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid rgb(225, 225 , 225);
 }
 footer{
     position: fixed;
