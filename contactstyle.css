@@ -38,8 +38,7 @@ header input{
     margin-left: 16px;
 }
 .width-div{
-    /* border: solid navy;  */
-    /* use this border to verify positions  */
+    
     height: 100%;
     width: 900px;
     margin: auto;
@@ -51,11 +50,20 @@ header input{
     height: 50%;
     align-items: flex-end;
 }
-.flexnav > .homeblue {
+.flexnav > .homelogo {
     margin-bottom: 14px;
+}
+.homeblue {
+    display: none;
 }
 .flexnav > div > a{
     margin-right: 143px;
+}
+.flexnav > div > a:hover > .homegrey{
+    display: none;
+}
+.flexnav > div > a:hover > .homeblue{
+    display: inline;
 }
 .flexul{
     display: flex;
@@ -66,7 +74,7 @@ header input{
 }
 .flexul > li{
     list-style: none;
-    border-right: rgb(205, 205, 205) 1px solid;/* quastion to yaron */
+    border-right: rgb(205, 205, 205) 1px solid;
     padding: 0 16px 0 16px;
     position: relative;
     
@@ -127,8 +135,8 @@ header input{
 }
 main{
     width: 900px;
-    height: 426px;
-    margin: 32px auto 0px;
+    
+    margin: 32px auto auto;
     display: flex;
 }
 main > aside {
@@ -185,6 +193,7 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
     border: solid 1px rgb(225, 225 , 225);
     border-top-right-radius: 20px;
     width: 385px;
+    margin-bottom: 107px;
     background: rgb(235, 235, 235);
     background: linear-gradient(0deg, rgb(235, 235, 235) 20%, rgb(255, 255, 255) 100%);
 }
@@ -212,7 +221,7 @@ main > aside > a > div:hover > span.contact-span, .center > div > a:hover{
 }
 .contact{
     width: 245px;
-    margin: 10px auto 0;
+    margin: 10px auto 30px;
 }
 .contact > div{
     margin-bottom: 5px;
@@ -236,12 +245,46 @@ textarea {
 div.hova {
     color: red;
     font-size: 12px;
-
     display: none;
+}
+.send{
+    height: 21px;
+    width: 45px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+    
+}
+.send > a{
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    font-size: 14px;
+    background: rgb(1,83,148);
+background: linear-gradient(0deg, rgba(1,83,148,1) 72%, rgba(37,209,255,1) 100%);
+    width: 37px;
+    text-align: center;
+}
+
+.send > span {
+    width: 6px;
+    background: rgb(1,83,148);
+    background: linear-gradient(0deg, rgba(1,83,148,1) 72%, rgba(37,209,255,1) 100%);
+}
+.send > span:first-child{
+    border-top-right-radius: 5px;
+}
+.send:hover > a{
+    background: transparent;
+    color: #3c3c3c;
+}
+.send:hover > .orange{
+    background: rgb(255,115,2);
+    background: linear-gradient(0deg, rgba(255,115,2,1) 46%, rgba(229,246,12,1) 100%);
 }
 .info {
     width: 292px;
     margin-top: 56px;
+    font-size: 14px;
 }
 .info article {
     height: 168px;
@@ -270,7 +313,7 @@ div.hova {
     font-size: 13px;
     color: #6d6d6d;
 }
-.info p > a{
+.info > article > div > p > a{
     text-decoration: none;
 }
 footer{
