@@ -236,6 +236,7 @@ textarea {
 div.hova {
     color: red;
     font-size: 12px;
+
     display: none;
 }
 .info {
@@ -263,6 +264,14 @@ div.hova {
     padding-bottom: 4px;
     margin-bottom: 6px;
     border-bottom: 1px solid rgb(225, 225 , 225);
+}
+.info p{
+    margin: 0px;
+    font-size: 13px;
+    color: #6d6d6d;
+}
+.info p > a{
+    text-decoration: none;
 }
 footer{
     position: fixed;
