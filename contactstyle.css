@@ -257,7 +257,7 @@ div.hova {
     width: 248px;
     margin: 18px 22px;
 }
-.info h3{
+.info > article > div > h3{
     font-size: 15px;
     font-weight: bold;
     color: #005ca0;
@@ -265,9 +265,9 @@ div.hova {
     margin-bottom: 6px;
     border-bottom: 1px solid rgb(225, 225 , 225);
 }
-.info p{
+.info > article > div > p{
     margin: 0px;
-    font-size: 6px;
+    font-size: 13px;
     color: #6d6d6d;
 }
 .info p > a{
